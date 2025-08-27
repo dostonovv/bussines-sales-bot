@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) 
 ![Aiogram](https://img.shields.io/badge/Aiogram-3.x-orange?logo=telegram&logoColor=white) 
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen) 
-![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white) 
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 
 > A **modular, production-ready** Telegram bot built for real businesses.  
