@@ -118,9 +118,9 @@ Create a Pull Request
 📬 Contact
 For business inquiries or support:
 
-Telegram: @zoirjon_dev
+Telegram: @dostonovv1
 
-Email: yourname@example.com
+Email: zoirjondostonovceo@gmail.com
 
 🧠 License
 This project is proprietary.
