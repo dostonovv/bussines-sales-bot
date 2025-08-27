@@ -18,7 +18,7 @@
   ██║     ╚██████╔╝   ██║   
   ╚═╝      ╚═════╝    ╚═╝   
      ⚡ CYBER-READY BOT ⚡
-<p align="center"> <b>"Minimalism in code, maximalism in power."</b> </p>
+
 🚀 Core Features
 🛍 Product Catalog — with category navigation
 
