@@ -1,6 +1,6 @@
 
 import os
-BOT_TOKEN = "8255574692:AAE9FeMcnjApIqi3JvpKEdqkfHxJOea3WEc"
+BOT_TOKEN = ""
 
 
 DB_NAME = "database.sqlite3"
