@@ -1,129 +1,110 @@
-# 🤖 Telegram Business Bot
-
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) 
-![Aiogram](https://img.shields.io/badge/Aiogram-3.x-orange?logo=telegram&logoColor=white) 
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen) 
-![License](https://img.shields.io/badge/License-Proprietary-red)
-
-> A **modular, production-ready** Telegram bot built for real businesses.  
-> Designed with **scalability, maintainability, and authorship protection** in mind.  
-
----
-
-## ✨ Demo
+# ⚡️ TELEGRAM BUSINESS BOT  
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Bot Demo" width="500"/>
+  <img src="https://img.shields.io/badge/Python-3.11-0d1117?style=for-the-badge&logo=python&logoColor=yellow" />
+  <img src="https://img.shields.io/badge/Aiogram-3.x-0d1117?style=for-the-badge&logo=telegram&logoColor=blue" />
+  <img src="https://img.shields.io/badge/Build-Passing-0d1117?style=for-the-badge&logo=github&logoColor=green" />
+  <img src="https://img.shields.io/badge/Database-SQLAlchemy-0d1117?style=for-the-badge&logo=postgresql&logoColor=blue" />
+  <img src="https://img.shields.io/badge/License-Proprietary-0d1117?style=for-the-badge&logo=lock&logoColor=red" />
 </p>
 
-*(Optional: Add GIF or screenshot from your bot in action)*
-
 ---
 
-## 🚀 Features
+```ascii
+  ██████╗  ██████╗ ████████╗
+  ██╔══██╗██╔═══██╗╚══██╔══╝
+  ██████╔╝██║   ██║   ██║   
+  ██╔═══╝ ██║   ██║   ██║   
+  ██║     ╚██████╔╝   ██║   
+  ╚═╝      ╚═════╝    ╚═╝   
+     ⚡ CYBER-READY BOT ⚡
+<p align="center"> <b>"Minimalism in code, maximalism in power."</b> </p>
+🚀 Core Features
+🛍 Product Catalog — with category navigation
 
-- 🛍 **Product catalog** with category navigation  
-- 📦 **Order creation** with FSM-based workflows  
-- 📞 Phone number capture via **contact request**  
-- 🧑‍💼 **Admin panel** with product management  
-- 🧾 Order tracking & cancellation  
-- 🔐 **Authorship protection** with hidden `/creator` command  
-- 📢 Broadcast-ready structure for future marketing  
-- 🧠 **Clean architecture** powered by SQLAlchemy ORM  
-- 🧩 Rich UX with inline & reply keyboards  
+📦 Order Flow — FSM-driven, step-by-step
 
----
+📞 Phone Capture — via Telegram contact button
 
-## 🧠 Tech Stack
+🧑‍💼 Admin Panel — product management system
 
-| Layer        | Technology        |
-|--------------|-------------------|
-| Bot Engine   | [Aiogram 3.x](https://docs.aiogram.dev/) |
-| Database     | PostgreSQL / SQLite (SQLAlchemy ORM) |
-| FSM          | Aiogram FSMContext |
-| Deployment   | Python 3.11+, Docker-ready |
-| Structure    | Modular routers, states, keyboards |
+🧾 Order Lifecycle — track, approve, cancel
 
----
+🔐 Hidden Authorship Signature (/creator)
 
-## 📁 Project Structure
+🧠 SQLAlchemy ORM — clean & scalable
 
-kaibot/
-├── database/
-│ ├── models.py
-│ ├── db.py
-├── handlers/
-│ ├── user.py
-│ ├── admin.py
-├── keyboards/
-│ ├── user_kb.py
-│ ├── inline_kb.py
-├── states/
-│ ├── phone_states.py
-├── utils/
-│ ├── creator.py
-├── main.py
-└── config.py
+🎛 Inline + Reply Keyboards — seamless UX
 
-yaml
-Копировать код
+🧠 Tech Stack
+Layer	Technology
+Engine	Aiogram 3.x
+Database	PostgreSQL / SQLite (SQLAlchemy ORM)
+FSM	Aiogram FSMContext
+Python	3.11+
+Structure	Modular routers, states & keyboards
 
----
-
-## 🔐 Authorship Protection
-
-This bot includes a **hidden `/creator` command** that always displays the original developer’s name, regardless of code edits.  
-
-> 👨‍💻 Built by **Dostonov Zoirjon**  
-> 🧬 Code signature embedded via `utils/creator.py`
-
----
-
-## 🛠 Setup Instructions
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/yourusername/kaibot.git
-   cd kaibot
-Install dependencies
-
+📂 Project Layout
 bash
 Копировать код
-pip install -r requirements.txt
-Configure .env or config.py
+kaibot/
+│── database/
+│   ├── models.py
+│   ├── db.py
+│
+│── handlers/
+│   ├── user.py
+│   ├── admin.py
+│
+│── keyboards/
+│   ├── user_kb.py
+│   ├── inline_kb.py
+│
+│── states/
+│   ├── phone_states.py
+│
+│── utils/
+│   ├── creator.py
+│
+│── main.py
+└── config.py
+🔐 Authorship Protection
+This bot includes a hidden /creator command that cannot be removed.
+It will always show the original developer’s name:
 
-env
+👨‍💻 Built by Dostonov Zoirjon
+🧬 Code signature embedded via utils/creator.py(with joke codes😉😅)
+
+⚡️ Quick Start
+bash
 Копировать код
+# 1. Clone repository
+git clone https://github.com/dostonovv/kaibot.git
+cd kaibot
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Configure environment
+# inside .env or config.py
 BOT_TOKEN=your_token_here
 DATABASE_URL=sqlite+aiosqlite:///bot.db
 ADMIN_IDS=123456789
-Run the bot
 
-bash
-Копировать код
+# 4. Run bot
 python main.py
-👨‍💻 Contribution
-Want to improve this bot? Follow these steps:
+🛰 Cyber Design Philosophy
+Minimal UI: Fast execution, no bloat
 
-Fork the repo
+Neon Architecture: Every module is standalone
 
-Create your feature branch: git checkout -b feature/amazing-feature
+Hacker-Proof: Authorship lock-in + hidden branding
 
-Commit changes: git commit -m 'Add amazing feature'
+Future-Proof: Easily expandable for new features
 
-Push to branch: git push origin feature/amazing-feature
+📬 Contact : +998 99 860 97 98
+💬 Telegram: @zoirjondostonovceo@gmail.com
 
-Create a Pull Request
+📧 Email: yourname@example.com
 
-📬 Contact
-For business inquiries or support:
-
-Telegram: @dostonovv1
-
-Email: zoirjondostonovceo@gmail.com
-
-🧠 License
-This project is proprietary.
-Redistribution or modification without explicit permission is prohibited.
-
-<p align="center"> Made with ❤️ by <b>Dostonov Zoirjon</b> </p> ```
+<p align="center"> <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-black?style=for-the-badge" /> </p> ```
