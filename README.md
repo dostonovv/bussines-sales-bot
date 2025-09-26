@@ -107,4 +107,4 @@ Future-Proof: Easily expandable for new features
 
 📧 Email: yourname@example.com
 
-<p align="center"> <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-black?style=for-the-badge" /> </p> ```
+<p align="center"> <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-black?style=for-the-badge" /> </p> 
